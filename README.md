@@ -1,4 +1,4 @@
-# PortfolioH
+# BookFinder
 
 ## Badges
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -21,11 +21,11 @@
 
 ## Description
 
-Here I share my projects skills ive gathered overtime displaying my experience building single page applications using React.
+H
 
 ## Table of Contents
 
-* [PortfolioH](#PortfolioH)
+* [BookFinder](#BookFinder)
 * [Badges](#Badges)
 * [Description](#Description)
 * [Table of Contents](#Table-of-contents)
@@ -40,9 +40,9 @@ Here I share my projects skills ive gathered overtime displaying my experience b
 To install and test, copy and paste the following into terminal:
 
 ```Bash
-git clone git@github.com:hfelix3/PortfolioH.git
+git clone git@github.com:hfelix3/BookFinder.git
 
-cd PortfolioH
+cd BookFinder
 
 npm install 
 
@@ -55,7 +55,7 @@ In your browser, navigate to http://localhost:3001/
 
 ## Usage
 
-Open the application here: https://github.com/hfelix3/PortfolioH
+Open the application here: https://github.com/hfelix3/BookFinder
 
 Log in or create a new account.
 
@@ -68,7 +68,7 @@ Once you have logged in, navigate to .
 
 ## Deployed Application
 
-![Screenshot 2024-01-27 at 9 49 51 PM](https://github.com/hfelix3/PortfolioH/assets/141383937/96fcc5ee-bf52-4141-80f1-5a6d9afdc9d3)
+
 
 ## How to contribute
 
@@ -82,7 +82,7 @@ Your changes will be reviewed and approved as appropriate.
 
 ## Links
 
-### [Github Profile](https://github.com/hfelix3/PortfolioH/)
+### [Github Profile](https://github.com/hfelix3/BookFinder/)
 
 # MIT License
 
