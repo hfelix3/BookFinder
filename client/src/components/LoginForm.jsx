@@ -1,8 +1,10 @@
 // see SignupForm.js for comments
 import { useState } from 'react';
 import { Form, Button, Alert } from 'react-bootstrap';
+import { useMutation } from '@apollo/client';
+import { LOGIN_USER } from '../utils/mutations';
 
-import { loginUser } from '../utils/API';
+// import { loginUser } from '../utils/API';
 import Auth from '../utils/auth';
 
 const LoginForm = () => {
@@ -26,7 +28,8 @@ const LoginForm = () => {
     }
 
     try {
-      const response = await loginUser(userFormData);
+      // ?DO I NEED TO COMMENT THIS OUT OR IS ADDING LINE 4-5 ENOUGH?
+      // const response = await loginUser(userFormData);
 
       if (!response.ok) {
         throw new Error('something went wrong!');
