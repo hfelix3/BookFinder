@@ -21,7 +21,8 @@
 
 ## Description
 
-H
+On this assignment I was tasked with refactoring the code built with a RESTful API, and refactor it to be a GraphQL API built with Apollo Server.
+
 
 ## Table of Contents
 
@@ -83,6 +84,7 @@ Your changes will be reviewed and approved as appropriate.
 ## Links
 
 ### [Github Profile](https://github.com/hfelix3/BookFinder/)
+### [Heroku Deployed Page](https://bookfinder1-1f8d4231017e.herokuapp.com/)
 
 # MIT License
 
