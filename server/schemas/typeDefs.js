@@ -1,15 +1,13 @@
 const typeDefs = `
 type Query {
-    users: [User]
-    user(username: String!): User
     me: User
 }
 
 type Mutation {
     login(email: String!, password: String!): Auth
     addUser(username: String!, email: String!, password: String!): Auth
-    saveBook(authors: [String], description: String!, title: String!, bookId: ID, image: String!): User
-    removeBook(thoughtId: ID!, commentId: ID!): Thought
+    saveBook(authors: [String], description: String!, title: String!, bookId: ID, image: String!, link: String!): User
+    removeBook(bookId: ID!): User
 }
 
 type Book {
@@ -17,13 +15,19 @@ type Book {
     authors: [String]
     description: String
     title: String
-    // TODO: WHAT DO YOU PUT FOR IMAGE?
     image: String
     link: String
 }
 
+type User {
+    _id: ID!
+    username: String!
+    email: String!
+    bookCount: Int!
+    savedBooks: [Book]
+}
 type Auth {
-    token: Int
+    token: String!
     user: User
 }
 

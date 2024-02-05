@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { useMutation, useQuery } from '@apollo/client';
 import {
   Container,
   Col,
